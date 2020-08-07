@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/cluster.cpp
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/cluster/cluster.cpp
 ../../render/render.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.h
 ../../render/box.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/box.h
 chrono
 -
 string
 -
 kdtree.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/cluster/kdtree.h
 ../../render/render.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.h
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/box.h
 Eigen/Geometry
 -
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp
 render.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.h
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.h
 pcl/visualization/pcl_visualizer.h
 -
 box.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/box.h
 iostream
 -
 vector

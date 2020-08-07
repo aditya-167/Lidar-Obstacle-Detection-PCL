@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/processPointClouds.cpp
 processPointClouds.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/processPointClouds.h
+unordered_set
+-
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/processPointClouds.h
 pcl/io/pcd_io.h
 -
 pcl/common/common.h
@@ -40,31 +42,33 @@ ctime
 chrono
 -
 render/box.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/box.h
+unordered_set
+-
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp
 ../../render/render.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.h
 unordered_set
 -
 ../../processPointClouds.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/processPointClouds.h
 ../../processPointClouds.cpp
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/processPointClouds.cpp
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/box.h
 Eigen/Geometry
 -
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp
 render.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.h
 
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.h
 pcl/visualization/pcl_visualizer.h
 -
 box.h
-/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/box.h
 iostream
 -
 vector

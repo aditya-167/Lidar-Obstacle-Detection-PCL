@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/cluster.cpp" "/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/build/CMakeFiles/quizCluster.dir/cluster.cpp.o"
-  "/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp" "/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/cluster/build/CMakeFiles/quizCluster.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o"
+  "/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/cluster/cluster.cpp" "/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/cluster/build/CMakeFiles/quizCluster.dir/cluster.cpp.o"
+  "/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp" "/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/cluster/build/CMakeFiles/quizCluster.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

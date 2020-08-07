@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac
+CMAKE_SOURCE_DIR = /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build
+CMAKE_BINARY_DIR = /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/quizRansac.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/quizRansac.dir/flags.make
 
 CMakeFiles/quizRansac.dir/ransac2d.cpp.o: CMakeFiles/quizRansac.dir/flags.make
 CMakeFiles/quizRansac.dir/ransac2d.cpp.o: ../ransac2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quizRansac.dir/ransac2d.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quizRansac.dir/ransac2d.cpp.o -c /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quizRansac.dir/ransac2d.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quizRansac.dir/ransac2d.cpp.o -c /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp
 
 CMakeFiles/quizRansac.dir/ransac2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quizRansac.dir/ransac2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp > CMakeFiles/quizRansac.dir/ransac2d.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp > CMakeFiles/quizRansac.dir/ransac2d.cpp.i
 
 CMakeFiles/quizRansac.dir/ransac2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quizRansac.dir/ransac2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp -o CMakeFiles/quizRansac.dir/ransac2d.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/ransac2d.cpp -o CMakeFiles/quizRansac.dir/ransac2d.cpp.s
 
 CMakeFiles/quizRansac.dir/ransac2d.cpp.o.requires:
 
@@ -81,40 +81,40 @@ CMakeFiles/quizRansac.dir/ransac2d.cpp.o.provides: CMakeFiles/quizRansac.dir/ran
 CMakeFiles/quizRansac.dir/ransac2d.cpp.o.provides.build: CMakeFiles/quizRansac.dir/ransac2d.cpp.o
 
 
-CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o: CMakeFiles/quizRansac.dir/flags.make
-CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o: /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o -c /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp
+CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o: CMakeFiles/quizRansac.dir/flags.make
+CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o: /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o -c /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp
 
-CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp > CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.i
+CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp > CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.i
 
-CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp -o CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.s
+CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp -o CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.s
 
-CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.requires:
+CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.requires:
 
-.PHONY : CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.requires
+.PHONY : CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.requires
 
-CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.provides: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.requires
-	$(MAKE) -f CMakeFiles/quizRansac.dir/build.make CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.provides.build
-.PHONY : CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.provides
+CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.provides: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.requires
+	$(MAKE) -f CMakeFiles/quizRansac.dir/build.make CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.provides.build
+.PHONY : CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.provides
 
-CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.provides.build: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o
+CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.provides.build: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o
 
 
 # Object files for target quizRansac
 quizRansac_OBJECTS = \
 "CMakeFiles/quizRansac.dir/ransac2d.cpp.o" \
-"CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o"
+"CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o"
 
 # External object files for target quizRansac
 quizRansac_EXTERNAL_OBJECTS =
 
 quizRansac: CMakeFiles/quizRansac.dir/ransac2d.cpp.o
-quizRansac: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o
+quizRansac: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o
 quizRansac: CMakeFiles/quizRansac.dir/build.make
 quizRansac: /usr/lib/x86_64-linux-gnu/libboost_system.so
 quizRansac: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -390,7 +390,7 @@ quizRansac: /usr/lib/x86_64-linux-gnu/libvtksys-6.3.so.6.3.0
 quizRansac: /usr/lib/x86_64-linux-gnu/libproj.so
 quizRansac: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.3.so.6.3.0
 quizRansac: CMakeFiles/quizRansac.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable quizRansac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable quizRansac"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quizRansac.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -399,7 +399,7 @@ CMakeFiles/quizRansac.dir/build: quizRansac
 .PHONY : CMakeFiles/quizRansac.dir/build
 
 CMakeFiles/quizRansac.dir/requires: CMakeFiles/quizRansac.dir/ransac2d.cpp.o.requires
-CMakeFiles/quizRansac.dir/requires: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/render/render.cpp.o.requires
+CMakeFiles/quizRansac.dir/requires: CMakeFiles/quizRansac.dir/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/render/render.cpp.o.requires
 
 .PHONY : CMakeFiles/quizRansac.dir/requires
 
@@ -408,6 +408,6 @@ CMakeFiles/quizRansac.dir/clean:
 .PHONY : CMakeFiles/quizRansac.dir/clean
 
 CMakeFiles/quizRansac.dir/depend:
-	cd /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build /home/aditya/Udacity/SF_ND/SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/quizRansac.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build /home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/quizRansac.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/quizRansac.dir/depend
 
