@@ -42,11 +42,11 @@ Output of 2D- KD tree implementation from scratch
 
 Output from pcd/data_1:
 
-<img src="Images/data2.gif" width="700" height="400" />
+<img src="Images/ObstacleDetectionFPS.gif" width="700" height="400" />
 
 Output from pcd/data_2:
 
-<img src="Images/ObstacleDetectionFPS.gif" width="700" height="400" />
+<img src="Images/data2.gif" width="700" height="400" />
 
 * We can compare results with existing PCL library for RANSAC and Clustering with our implementation from scratch.
 
@@ -59,8 +59,8 @@ Output from pcd/data_2:
 ```bash
 $> sudo apt install libpcl-dev
 $> cd ~
-$> git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
-$> cd SFND_Lidar_Obstacle_Detection
+$> git clone https://github.com/aditya-167/Lidar-Obstacle-Detection-PCL.git
+$> cd Lidar-Obstacle-Detection-PCL
 $> mkdir build && cd build
 $> cmake ..
 $> make
