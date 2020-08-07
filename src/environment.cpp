@@ -44,7 +44,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
   //pcl::PointCloud<pcl::PointXYZI>::Ptr inputCloud = pointProcessorI->loadPcd("../src/sensors/data/pcd/data_1/0000000000.pcd");
   //inputCloud = pointProcessorI->FilterCloud(inputCloud, 0.3, Eigen::Vector4f (-10, -10, -2, 1), Eigen::Vector4f ( 30, 20, 2, 1));
   
-  inputCloud = pointProcessorI->FilterCloud(inputCloud, 0.17, Eigen::Vector4f (-10, -6.5, -2, 1), Eigen::Vector4f (  30, 6, 2, 1));
+  inputCloud = pointProcessorI->FilterCloud(inputCloud, 0.17, Eigen::Vector4f (-10, -7.5, -2, 1), Eigen::Vector4f (  30, 6, 2, 1));
   std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr,pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentedPlane = pointProcessorI->RANSAC_PlaneSegment_Scratch(inputCloud,50,0.2);
   renderPointCloud(viewer, segmentedPlane.first,"Obstacle Cloud",Color(0,0,1));
   renderPointCloud(viewer, segmentedPlane.second,"Plane Cloud",Color(1,0,1));
@@ -74,7 +74,7 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     bool renderScene = true;
     std::vector<Car> cars = initHighway(renderScene, viewer);
     
-    // TODO:: Create lidar sensor 
+    //Create lidar sensor 
     Lidar* lidar = new Lidar(cars,0);
     pcl::PointCloud<pcl::PointXYZ>::Ptr inputCloud= lidar->scan();
     
@@ -84,7 +84,7 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     //lidar Rays Viewer
     //renderRays(viewer, lidar->position, inputCloud);
     
-    // TODO:: Create point processor
+    //Create point processor
     ProcessPointClouds<pcl::PointXYZ>* pointProcess= new ProcessPointClouds<pcl::PointXYZ>();
     //count number of clouds
     pointProcess->numPoints(inputCloud);
