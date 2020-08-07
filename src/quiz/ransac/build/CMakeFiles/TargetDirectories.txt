@@ -1,3 +1,0 @@
-/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/rebuild_cache.dir
-/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/quizRansac.dir
-/home/aditya/Udacity/SF_ND/Projects/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/edit_cache.dir
